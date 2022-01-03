@@ -37,4 +37,19 @@ html{
 body{
   overflow: auto;
 }
+
+.container {
+  padding: 20px;
+  margin: 10px auto;
+  width: 240px;
+  height: 200px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.title{
+  font-size: 28px;
+  color: purple;
+}
 </style>

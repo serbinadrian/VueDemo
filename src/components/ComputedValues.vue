@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <div class="title">
+      Computed
+    </div>
     <input type="text" v-model="firstValue">
     <input type="text" v-model="secondValue">
     <h2>

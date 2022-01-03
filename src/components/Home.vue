@@ -5,6 +5,8 @@
     <Watchers/>
     <ComputedValues/>
     <Properties/>
+    <DynamicComponents/>
+    <SignIn/>
   </div>
 </template>
 
@@ -15,6 +17,9 @@ import ConditionalRendering from './ConditionalRendering.vue'
 import Watchers from './Watchers.vue'
 import ComputedValues from './ComputedValues.vue'
 import Properties from './Properties.vue'
+import DynamicComponents from './DynamicComponents.vue'
+import SignIn from './SignIn.vue'
+
 export default {
   name: 'Home',
   components: {
@@ -22,7 +27,9 @@ export default {
     ConditionalRendering,
     Watchers,
     ComputedValues,
-    Properties
+    Properties,
+    DynamicComponents,
+    SignIn
   }
 }
 </script>

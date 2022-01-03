@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <div class="title">
+      Watchers
+    </div>
     <input type="text" v-model="inputData">
     <h2>
         {{ name }}
@@ -21,7 +24,7 @@ export default {
   },
   watch: {
     inputData() {
-      this.counter++
+      this.counter++;
     }
   }
 }

@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <div class="title">
+      Props
+    </div>
     <input type="text" v-model="param1">
     <input type="text" v-model="param2">
     <childComponent :first-propery="param1" :second-property="param2"/>
