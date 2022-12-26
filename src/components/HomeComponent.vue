@@ -12,13 +12,13 @@
 
 <script>
 
-import ListsRendering from './ListsRendering.vue'
-import ConditionalRendering from './ConditionalRendering.vue'
-import Watchers from './WatchersComponent.vue'
-import ComputedValues from './ComputedValues.vue'
-import Properties from './PropertiesComponent.vue'
-import DynamicComponents from './DynamicComponents.vue'
-import SignIn from './SignIn.vue'
+import ListsRendering from './list/ListsRendering.vue'
+import ConditionalRendering from './conditionals/ConditionalRendering.vue'
+import Watchers from './watch/WatchersComponent.vue'
+import ComputedValues from './computed/ComputedValues.vue'
+import Properties from './props/PropertiesComponent.vue'
+import DynamicComponents from './dynamic/DynamicComponents.vue'
+import SignIn from './actions/SignIn.vue'
 
 export default {
   components: {
