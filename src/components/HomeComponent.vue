@@ -14,14 +14,13 @@
 
 import ListsRendering from './ListsRendering.vue'
 import ConditionalRendering from './ConditionalRendering.vue'
-import Watchers from './Watchers.vue'
+import Watchers from './WatchersComponent.vue'
 import ComputedValues from './ComputedValues.vue'
-import Properties from './Properties.vue'
+import Properties from './PropertiesComponent.vue'
 import DynamicComponents from './DynamicComponents.vue'
 import SignIn from './SignIn.vue'
 
 export default {
-  name: 'Home',
   components: {
     ListsRendering,
     ConditionalRendering,

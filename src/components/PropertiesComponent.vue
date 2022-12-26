@@ -12,7 +12,6 @@
 <script>
 import childComponent from './PropertiesPart.vue'
 export default {
-  name: "Properties",
   data(){
     return {
       param1: '',

@@ -1,24 +1,23 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import { createStore } from 'vuex'
 
-Vue.use(Vuex)
-
-const store = new Vuex.Store({
-    state: {
-        displayedDynamicComponent: '',
-        dynamicComponents: [
-            {
-                id: 0,
-                name: 'DynamicComponent1'
-            },
-            {
-                id: 1,
-                name: 'DynamicComponent2'
-            }
-        ]
+const store = createStore({
+    state() {
+        return {
+            displayedDynamicComponent: '',
+            dynamicComponents: [
+                {
+                    id: 0,
+                    name: 'DynamicComponent1'
+                },
+                {
+                    id: 1,
+                    name: 'DynamicComponent2'
+                }
+            ]
+        }
     },
     mutations: {
-        setDynamicComponent(state, component){
+        setDynamicComponent(state, component) {
             state.displayedDynamicComponent = component;
         }
     },
@@ -34,6 +33,7 @@ const store = new Vuex.Store({
     actions: {
         signIn(credentials) {
             // eslint-disable-next-line no-console
+            alert("see console");
             console.log(credentials);
             //fetch
         }
