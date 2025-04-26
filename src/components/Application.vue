@@ -1,24 +1,34 @@
+<template>
+  <HomePage />
+</template>
+
+<script setup lang="ts">
+import HomePage from "@pages/Home.vue"
+</script>
+
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-html, body{
+html,
+body {
   width: 100%;
   height: 100%;
 }
 
-html{
+html {
   overflow: hidden;
 }
 
-body{
+body {
   overflow: auto;
 }
 
@@ -32,7 +42,8 @@ body{
   border: 1px solid black;
 }
 
-.title{
+.title {
   font-size: 28px;
   color: purple;
 }
+</style>
