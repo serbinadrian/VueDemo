@@ -2,7 +2,7 @@
   <HomePage />
 </template>
 
-<script setup lang="ts">
+<script setup>
 import HomePage from "@pages/Home.vue"
 </script>
 

@@ -5,12 +5,12 @@
     </div>
     <input type="text" v-model="credentials.login">
     <input type="text" v-model="credentials.password">
-    <!-- <button @click="signIn(credentials)">submit</button> -->
+    <button @click="signIn(credentials)">submit</button>
   </div>
 </template>
 
-<script lang="ts">
-// import { mapActions } from 'vuex/types/helpers.js';
+<script>
+import { mapActions } from 'vuex';
 export default {
   name: "SignIn",
   data() {
@@ -21,8 +21,8 @@ export default {
       }
     }
   },
-  // methods: {
-  //   ...mapActions(['signIn'])
-  // }
+  methods: {
+    ...mapActions(['signIn'])
+  }
 }
 </script>
