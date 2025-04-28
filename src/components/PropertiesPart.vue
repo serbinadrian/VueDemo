@@ -1,13 +1,3 @@
-<script lang="ts">
-export default {
-  name: "PropertiesPart",
-  props: {
-    firstProperty: String,
-    secondProperty: String
-  }
-}
-</script>
-
 <template>
   <div class="child-container">
     <h2>
@@ -18,3 +8,13 @@ export default {
     </h2>
   </div>
 </template>
+
+<script lang="ts">
+export default {
+  name: "PropertiesPart",
+  props: {
+    firstProperty: String,
+    secondProperty: String
+  }
+}
+</script>
