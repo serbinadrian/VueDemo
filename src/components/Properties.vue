@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import PropertiesPart from '@components/PropertiesPart.vue'
 export default {
   data() {

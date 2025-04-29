@@ -22,7 +22,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: "ConditionalRendering",
   data() {
@@ -39,7 +39,7 @@ export default {
     },
     changeVisibility() {
       this.isVisible = !this.isVisible;
-      
+
       this.alertMessage();
     }
   }

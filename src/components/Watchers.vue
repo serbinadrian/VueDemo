@@ -4,16 +4,16 @@
       Watchers
     </div>
     <input type="text" v-model="inputData">
-    <h2>
+    <!-- <h2>
       {{ name }}
-    </h2>
+    </h2> -->
     <h2>
       Variable changed {{ counter }} times, value is {{ inputData }}
     </h2>
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   data() {
     return {

@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import ListsRendering from "@components/ListsRendering.vue";
 import ConditionalRendering from "@components/ConditionalRendering.vue";
 import Watchers from "@components/Watchers.vue";
